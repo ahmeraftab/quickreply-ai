@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import { CheckCheck, Paperclip, Send, Smile } from "lucide-react";
+import { CheckCheck, Paperclip, Send, Smile, Sparkles } from "lucide-react";
 import type { ChatMessage } from "@/lib/rag";
 
 interface DisplayMessage extends ChatMessage {
@@ -160,6 +160,11 @@ export function ChatInterface({
             online
           </p>
         </div>
+        <span className="inline-flex items-center gap-1.5 rounded-full bg-white/10 px-2.5 py-1 text-[10px] font-medium text-white/90 backdrop-blur-sm">
+          <Sparkles className="h-3 w-3 text-whatsapp" />
+          <span className="hidden sm:inline">Demo only — no real WhatsApp required</span>
+          <span className="sm:hidden">Demo only</span>
+        </span>
       </div>
 
       {/* Messages */}

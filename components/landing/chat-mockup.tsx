@@ -35,8 +35,15 @@ const CONVERSATION: MockMessage[] = [
 export function ChatMockup() {
   return (
     <div className="relative mx-auto w-full max-w-[360px]">
-      {/* Glow behind the phone */}
-      <div className="absolute -inset-6 -z-10 rounded-[3rem] bg-whatsapp/20 blur-3xl" />
+      {/* Soft green radial glow behind the phone */}
+      <div
+        aria-hidden
+        className="pointer-events-none absolute -inset-16 -z-10 blur-2xl"
+        style={{
+          background:
+            "radial-gradient(closest-side, rgba(37,211,102,0.28), rgba(18,140,126,0.12) 55%, transparent 75%)",
+        }}
+      />
 
       {/* Phone frame */}
       <div className="overflow-hidden rounded-[2.5rem] border-[10px] border-[#1c1c1e] bg-black shadow-2xl shadow-black/60 ring-1 ring-white/10">

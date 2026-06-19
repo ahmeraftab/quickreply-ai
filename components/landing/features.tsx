@@ -4,19 +4,16 @@ import { Reveal } from "@/components/landing/reveal";
 const FEATURES = [
   {
     icon: Zap,
-    emoji: "⚡",
     title: "Instant Responses",
     desc: "Replies in under 2 seconds using RAG — no hallucinations, only answers from your knowledge base.",
   },
   {
     icon: Brain,
-    emoji: "🧠",
     title: "Trained on Your Business",
     desc: "Upload your FAQs, product catalog, and policies. The AI learns your business in minutes.",
   },
   {
     icon: BarChart3,
-    emoji: "📊",
     title: "Analytics Dashboard",
     desc: "Track conversations, popular questions, and response accuracy from a clean dashboard.",
   },
@@ -40,9 +37,10 @@ export function Features() {
           {FEATURES.map((f, i) => (
             <Reveal key={f.title} delay={i * 0.1}>
               <div className="group h-full rounded-2xl border border-border bg-card p-8 transition-all hover:-translate-y-1 hover:border-whatsapp/40 hover:shadow-[0_20px_60px_-20px_rgba(37,211,102,0.3)]">
-                <div className="mb-6 flex h-12 w-12 items-center justify-center rounded-xl bg-whatsapp/10 text-2xl transition-colors group-hover:bg-whatsapp/20">
-                  {f.emoji}
-                </div>
+                <f.icon
+                  className="mb-6 h-8 w-8 text-whatsapp"
+                  strokeWidth={1.75}
+                />
                 <h3 className="text-xl font-semibold">{f.title}</h3>
                 <p className="mt-3 text-sm leading-relaxed text-muted">
                   {f.desc}
