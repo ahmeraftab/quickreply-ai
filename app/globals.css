@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "cv11", "ss01";
+    -webkit-font-smoothing: antialiased;
+  }
+
+  ::selection {
+    background-color: rgba(37, 211, 102, 0.3);
+  }
+}
+
+@layer utilities {
+  /* Custom scrollbar */
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.12);
+    border-radius: 9999px;
+  }
+  .scrollbar-thin::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  /* WhatsApp chat wallpaper — subtle doodle texture via layered gradients */
+  .whatsapp-wallpaper {
+    background-color: #0b141a;
+    background-image:
+      radial-gradient(circle at 20% 30%, rgba(37, 211, 102, 0.04) 0, transparent 25%),
+      radial-gradient(circle at 80% 70%, rgba(18, 140, 126, 0.05) 0, transparent 25%),
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cg fill='none' stroke='%23223' stroke-width='1.2' opacity='0.35'%3E%3Cpath d='M20 30c4-6 12-6 16 0'/%3E%3Ccircle cx='90' cy='25' r='6'/%3E%3Cpath d='M70 80h14M77 73v14'/%3E%3Cpath d='M30 90l6-6 6 6-6 6z'/%3E%3C/g%3E%3C/svg%3E");
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .gradient-border {
+    position: relative;
+    background:
+      linear-gradient(#0d0d0d, #0d0d0d) padding-box,
+      linear-gradient(135deg, #25d366, #128c7e, transparent) border-box;
+    border: 1px solid transparent;
+  }
+}
