@@ -33,7 +33,7 @@ async function main(): Promise<void> {
   mkdirSync(outDir, { recursive: true });
 
   const payload = {
-    model: "text-embedding-004",
+    model: "gemini-embedding-001",
     generatedAt: new Date().toISOString(),
     chunks,
   };

@@ -1,5 +1,5 @@
 {
-  "model": "text-embedding-004",
+  "model": "gemini-embedding-001",
   "generatedAt": "",
   "note": "Run `GEMINI_API_KEY=xxx npm run embed` to populate the `embedding` arrays. While they are empty, the in-memory vector store embeds the chunks lazily at runtime instead.",
   "chunks": [

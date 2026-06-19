@@ -45,15 +45,7 @@ export function Footer() {
               </a>
             </div>
             <p className="mt-2 text-sm text-muted">
-              Built by{" "}
-              <a
-                href="https://www.upwork.com/freelancers/ahmeraftab"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="font-medium text-whatsapp hover:underline"
-              >
-                Ahmer Aftab
-              </a>
+              Built by <span className="font-medium text-whatsapp">Ahmer Aftab</span>
             </p>
           </div>
         </div>

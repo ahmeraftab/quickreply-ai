@@ -6,7 +6,7 @@
  * route handlers without pulling in extra SDK surface.
  */
 
-const EMBEDDING_MODEL = "text-embedding-004";
+const EMBEDDING_MODEL = "gemini-embedding-001";
 const API_BASE = "https://generativelanguage.googleapis.com/v1beta";
 
 interface EmbeddingResponse {

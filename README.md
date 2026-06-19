@@ -14,7 +14,7 @@ QuickReply AI is a production-ready demo of a SaaS WhatsApp support product. It 
 - **Live browser demo** (`/demo`) — a WhatsApp-style chat UI that streams real AI answers. **No Twilio needed.**
 - **Admin dashboard** (`/admin`) — KPI cards, charts (Recharts), and a recent-conversations table.
 - **Real WhatsApp mode** (`/api/webhook`) — connect a Twilio WhatsApp number for true two-way messaging.
-- **RAG pipeline** — Gemini `text-embedding-004` embeddings + an in-memory vector store + `gemini-2.5-flash` generation.
+- **RAG pipeline** — Gemini `gemini-embedding-001` embeddings + an in-memory vector store + `gemini-2.5-flash` generation.
 
 ---
 
@@ -43,7 +43,7 @@ QuickReply AI is a production-ready demo of a SaaS WhatsApp support product. It 
               │   (lib/rag.ts)    │     │  (embeddings/knowledge)   │
               └─────────┬─────────┘     └──────────────────────────┘
                         │                          ▲
-            retrieve top-k chunks                  │ text-embedding-004
+            retrieve top-k chunks                  │ gemini-embedding-001
                         │                          │
                         ▼                  ┌────────────────┐
               ┌───────────────────┐        │  KickVault KB  │
@@ -61,7 +61,7 @@ QuickReply AI is a production-ready demo of a SaaS WhatsApp support product. It 
 | Framework    | Next.js 14 (App Router) + TypeScript strict |
 | Styling      | Tailwind CSS + shadcn/ui patterns           |
 | AI / LLM     | Google Gemini `gemini-2.5-flash`            |
-| Embeddings   | Gemini `text-embedding-004`                 |
+| Embeddings   | Gemini `gemini-embedding-001`               |
 | Vector store | In-memory cosine-similarity search          |
 | Streaming    | Vercel AI SDK (`ai`, `@ai-sdk/google`)      |
 | WhatsApp     | Twilio WhatsApp API                         |
@@ -200,6 +200,6 @@ scripts/generate-embeddings.ts
 
 ---
 
-Built by **Ahmer Aftab** · [Upwork](https://www.upwork.com/freelancers/ahmeraftab)
+Built by **Ahmer Aftab**
 
 © 2025 QuickReply AI. Built as a portfolio project.
