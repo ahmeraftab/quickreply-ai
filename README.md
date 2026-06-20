@@ -1,12 +1,8 @@
 # ⚡ QuickReply AI
 
-**Live Demo:** [quickreply-ai-blue.vercel.app](https://quickreply-ai-blue.vercel.app) &nbsp;|&nbsp; Next.js 14 · TypeScript · Gemini · Vercel
-
 > **Your Business, Always Online.** An AI-powered WhatsApp assistant that answers customer questions 24/7 — trained on your business knowledge in minutes.
 
 QuickReply AI is a production-ready demo of a SaaS WhatsApp support product. It pairs a stunning marketing landing page with a live, in-browser chat demo and an admin analytics dashboard. The assistant is grounded with a **RAG (Retrieval-Augmented Generation)** pipeline over a fictional sneaker store — **KickVault** — so answers stay accurate and on-brand.
-
-🟢 **Live demo available · No signup required**
 
 ---
 
@@ -208,5 +204,7 @@ scripts/generate-embeddings.ts
 ---
 
 Built by **Ahmer Aftab**
+
+**Live Demo:** [quickreply-ai-blue.vercel.app](https://quickreply-ai-blue.vercel.app)
 
 © 2025 QuickReply AI. Built as a portfolio project.
