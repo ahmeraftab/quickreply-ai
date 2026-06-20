@@ -1,10 +1,6 @@
 # ⚡ QuickReply AI
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Site-25D366?style=for-the-badge)](https://quickreply-ai-blue.vercel.app)
-[![Next.js](https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js)](https://nextjs.org)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=for-the-badge&logo=typescript)](https://typescriptlang.org)
-[![Gemini](https://img.shields.io/badge/Google-Gemini-4285F4?style=for-the-badge&logo=google)](https://ai.google.dev)
-[![Vercel](https://img.shields.io/badge/Deployed-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com)
+**Live Demo:** [quickreply-ai-blue.vercel.app](https://quickreply-ai-blue.vercel.app) &nbsp;|&nbsp; Next.js 14 · TypeScript · Gemini · Vercel
 
 > **Your Business, Always Online.** An AI-powered WhatsApp assistant that answers customer questions 24/7 — trained on your business knowledge in minutes.
 
