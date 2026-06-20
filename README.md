@@ -1,5 +1,11 @@
 # ⚡ QuickReply AI
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Site-25D366?style=for-the-badge)](https://quickreply-ai-blue.vercel.app)
+[![Next.js](https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js)](https://nextjs.org)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=for-the-badge&logo=typescript)](https://typescriptlang.org)
+[![Gemini](https://img.shields.io/badge/Google-Gemini-4285F4?style=for-the-badge&logo=google)](https://ai.google.dev)
+[![Vercel](https://img.shields.io/badge/Deployed-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com)
+
 > **Your Business, Always Online.** An AI-powered WhatsApp assistant that answers customer questions 24/7 — trained on your business knowledge in minutes.
 
 QuickReply AI is a production-ready demo of a SaaS WhatsApp support product. It pairs a stunning marketing landing page with a live, in-browser chat demo and an admin analytics dashboard. The assistant is grounded with a **RAG (Retrieval-Augmented Generation)** pipeline over a fictional sneaker store — **KickVault** — so answers stay accurate and on-brand.
@@ -15,6 +21,25 @@ QuickReply AI is a production-ready demo of a SaaS WhatsApp support product. It 
 - **Admin dashboard** (`/admin`) — KPI cards, charts (Recharts), and a recent-conversations table.
 - **Real WhatsApp mode** (`/api/webhook`) — connect a Twilio WhatsApp number for true two-way messaging.
 - **RAG pipeline** — Gemini `gemini-embedding-001` embeddings + an in-memory vector store + `gemini-2.5-flash` generation.
+
+---
+
+## 📸 Screenshots
+
+### Landing Page
+![Hero](docs/screenshots/screenshot-1-hero.jpg)
+
+### Features
+![Features](docs/screenshots/screenshot-2-features.jpg)
+
+### Pricing
+![Pricing](docs/screenshots/screenshot-3-pricing.jpg)
+
+### Live Demo
+![Demo](docs/screenshots/screenshot-4-demo.jpg)
+
+### Admin Dashboard
+![Admin](docs/screenshots/screenshot-5-admin.jpg)
 
 ---
 
