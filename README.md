@@ -27,19 +27,13 @@ QuickReply AI is a production-ready demo of a SaaS WhatsApp support product. It 
 ## 📸 Screenshots
 
 ### Landing Page
-![Hero](docs/screenshots/screenshot-1-hero.jpg)
-
-### Features
-![Features](docs/screenshots/screenshot-2-features.jpg)
-
-### Pricing
-![Pricing](docs/screenshots/screenshot-3-pricing.jpg)
+![Hero](docs/screenshots/screenshot-1-hero.png)
 
 ### Live Demo
-![Demo](docs/screenshots/screenshot-4-demo.jpg)
+![Demo](docs/screenshots/screenshot-4-demo.png)
 
 ### Admin Dashboard
-![Admin](docs/screenshots/screenshot-5-admin.jpg)
+![Admin](docs/screenshots/screenshot-5-admin.png)
 
 ---
 
@@ -206,14 +200,6 @@ scripts/generate-embeddings.ts
 ```
 
 ---
-
-## 📸 Screenshots
-
-> _Add screenshots here:_
->
-> - `docs/landing.png` — Landing page hero
-> - `docs/demo.png` — Live chat demo
-> - `docs/admin.png` — Admin dashboard
 
 ---
 
