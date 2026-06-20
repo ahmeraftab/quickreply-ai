@@ -1,8 +1,6 @@
 # ⚡ QuickReply AI
 
-> **Your Business, Always Online.** An AI-powered WhatsApp assistant that answers customer questions 24/7 — trained on your business knowledge in minutes.
-
-QuickReply AI is a production-ready demo of a SaaS WhatsApp support product. It pairs a stunning marketing landing page with a live, in-browser chat demo and an admin analytics dashboard. The assistant is grounded with a **RAG (Retrieval-Augmented Generation)** pipeline over a fictional sneaker store — **KickVault** — so answers stay accurate and on-brand.
+**Your Business, Always Online.** An AI-powered WhatsApp assistant that answers customer questions 24/7 — trained on your business knowledge in minutes. Production-ready demo built on Next.js 14, RAG with Google Gemini, and Twilio WhatsApp — featuring a live chat demo and admin analytics dashboard.
 
 ---
 
